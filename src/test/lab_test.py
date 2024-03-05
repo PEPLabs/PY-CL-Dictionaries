@@ -9,7 +9,10 @@ class TestDictionaryMethods(unittest.TestCase):
         keys = ['a', 'b', 'c']
         values = [1, 2, 3]
         expected_dict = {'a': 1, 'b': 2, 'c': 3}
-        self.assertEqual(create_dict_from_lists(keys, values), expected_dict)
+        output_dict = create_dict_from_lists(keys, values)
+        self.assertEqual(output_dict, expected_dict)
+        self.assertIsInstance(output_dict, dict)
+
 
     def test_clear_dict(self):
         test_dict = {'a': 1, 'b': 2, 'c': 3}
