@@ -1,7 +1,7 @@
 # lab_test.py
 
 import unittest
-from ..main.lab import create_dict_from_lists, clear_dict, copy_dict, get_value, get_items, get_keys, remove_key, get_values
+from src.main.lab import create_dict_from_lists, clear_dict, copy_dict, get_value, get_items, get_keys, remove_key, get_values
 
 class TestDictionaryMethods(unittest.TestCase):
 
