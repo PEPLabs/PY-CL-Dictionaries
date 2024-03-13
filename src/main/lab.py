@@ -3,7 +3,7 @@ def create_dict_from_lists(keys, values):
     Instead of returning 0, this method should
     Create a dictionary from lists of keys and values.
 
-    Hint: Use dict() and Zip()
+    Hint: Use dict() and zip()
 
     :param keys: A list of keys for the dictionary.
     :param values: A list of values for the dictionary.
