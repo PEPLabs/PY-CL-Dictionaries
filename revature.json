@@ -1,0 +1,50 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_create_dict_from_lists",
+          "label": "Create Dictionary from Lists",
+          "description": "Ensures create_dict_from_lists correctly pairs keys and values into a dictionary."
+        },
+        {
+          "methodName": "test_clear_dict",
+          "label": "Clear Dictionary",
+          "description": "Verifies clear_dict removes all entries from the provided dictionary."
+        },
+        {
+          "methodName": "test_copy_dict",
+          "label": "Copy Dictionary",
+          "description": "Checks that copy_dict returns a new dictionary with identical key/value pairs."
+        },
+        {
+          "methodName": "test_get_value",
+          "label": "Get Value by Key",
+          "description": "Ensures get_value returns the correct value for a key or None if the key does not exist."
+        },
+        {
+          "methodName": "test_get_items",
+          "label": "Get Dictionary Items",
+          "description": "Validates get_items returns a list of key/value tuple pairs from the dictionary."
+        },
+        {
+          "methodName": "test_get_keys",
+          "label": "Get Dictionary Keys",
+          "description": "Checks that get_keys returns a list of dictionary keys."
+        },
+        {
+          "methodName": "test_remove_key",
+          "label": "Remove Key",
+          "description": "Ensures remove_key deletes a key from the dictionary and returns its value, or None if absent."
+        },
+        {
+          "methodName": "test_get_values",
+          "label": "Get Dictionary Values",
+          "description": "Verifies get_values returns a list of all values in the dictionary."
+        }
+      ]
+    }
+  ]
+}
