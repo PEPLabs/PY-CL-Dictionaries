@@ -3,8 +3,8 @@ from lab import *
 
 def main():
     # Create dictionary from user input
-    keys = input("Enter keys separated by spaces: ").split(',')
-    values = input("Enter values separated by spaces: ").split(',')
+    keys = input("Enter keys separated by spaces: ").split()
+    values = input("Enter values separated by spaces: ").split()
     user_dict = create_dict_from_lists(keys, values)
     print()
     print("Dictionary created from user inputs:", user_dict)
